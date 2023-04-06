@@ -5,7 +5,6 @@ if name == "guluzar":
 else:
    print(f"Hello, {name}! See you later.")   
 
-
 #TASK2
 age = bool(int(input("Are you a cigarette addict older than 75 years old? (Yes:1, No:0)")))
 chronic = bool(int(input("Do you have a severe chronic disease? (Yes:1 / No:0) :")))
@@ -15,7 +14,6 @@ if (age or chronic or immune) is True:
     print("You are in risky group")
 else:
    print("You are not in risky group")
-
 
 #TASK3
 year = int(input("enter a four-digit year:"))
